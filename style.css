@@ -26,12 +26,15 @@ body{
 .img-responsive{
 width: 100%;
 height: auto;
-
 }
 .cart-img{
     width: 600px;
     height: 400px;
+    /* overflow: hidden;  */
+    background:rgba(0, 0, 0, 0.2);
+}
+.bloc-img{
+    height: 85%;
+    width: 100%;
     overflow: hidden;
-    
-
 }
