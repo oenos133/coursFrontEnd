@@ -13,13 +13,16 @@ body {
     height: 300px;
     background-color:salmon;
     margin: 20px;
-   transition: transform 2000ms ease-in-out 1s;
-   /* property
-    duration
-    timing function
-    delay */
-
+    animation: spin 2s;
 }
-.box:hover {
-    transform: rotate(180deg);
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        background-color: rgb(81, 204, 32);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
 }
