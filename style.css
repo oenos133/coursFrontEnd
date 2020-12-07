@@ -10,15 +10,18 @@ body {
     /* backgrou
     nd: linear-gradient(to right, #FDB99B, #CD8BF3); */
 }
-h2{
-    font-size: 65px;
-    text-transform: uppercase;
-    font-weight: 700;
-    background-image:linear-gradient(to right, #FDB99B, #CD8BF3);
-    -webkit-background-clip: text;
-    color: transparent;
-    text-align: center;
-    letter-spacing: 4px;
-    padding-top: 100px;
-
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background: url(ressources/spirit.png);
+}
+.logo1{
+    background-position: 0 0;
+}
+.logo2{
+    background-position: -100px 0;
+}
+.logo3{
+    background-position: -200px 0;
 }
